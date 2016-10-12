@@ -11,8 +11,11 @@ This is a test job "guest book".
 To work you need to perform
 
 composer update
+cp .env.example .env
+php artisan key:generate
+php artisan migrate:refresh --seed
 
-public/bower install
+public/ bower install
 
 
 ## Official Documentation
