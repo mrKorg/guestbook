@@ -1,0 +1,22 @@
+{
+  "name": "guestbook",
+  "authors": [
+    "korg <mr.korg@ya.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-table": "^1.11.0",
+    "bootstrap": "^3.3.7",
+    "tether": "^1.3.7"
+  }
+}
